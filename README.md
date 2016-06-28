@@ -29,20 +29,8 @@ The raw data was downloaded from Orbis, containing the following fields for all 
 - The sum of the ownership percentages of the Big Three
 - The position of that sum among all the shareholder, with the code 1 = largest, 2 = second largest, 3 = third largest, 4 = rest.
 
-#### IMPORTANT: This data is not provided, only the end result. big3_position.csv, that can be used to replicate all figures (step 3-5).  big3_position.csv has the following data:
-- Company_name:
-- Company_ID: Orbis ID
-- Big3Share: Share of the big3 together
-- Position: Position of the big 3 among all shareholders
-- Revenue: Firm's revenue
-- Assets: Firm's assets
-- Employees: Firm's number of employees
-- MarketCap: Firm's market capitalization
-- Exchange: Firm's exchange
-- TypeEnt: Firm's type of entity
+#### IMPORTANT: This data is not provided for licence restrictions, but can be downloaded from Orbis
 
 #### Files provided:
 - Big 3.ipynb: ipython notebook containing the code used
-- big3_position.csv: see above
-- nodes.csv and edges.csv: Files with the network of ownership (threshold = 3%)
-- big3.gephi: Gephi file with the previous information
+- nodes.csv : Files with the companies and the position of the Big Three among the shareholders.
